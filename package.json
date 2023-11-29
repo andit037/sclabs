@@ -1,0 +1,29 @@
+{
+  "debug.javascript.codelens.npmScripts": "never",
+  "debug.javascript.autoAttachFilter": "disabled",
+  "name": "testoutline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "allure": "allure generate ./allure-results/ --clean && allure open",
+    "test": "npm run cleandir && wdio",
+    "wdio": "wdio run ./wdio.conf.js",
+    "cleandir": "rimraf ./allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.24.2",
+    "@wdio/cli": "^8.24.1",
+    "@wdio/cucumber-framework": "^8.24.0",
+    "@wdio/local-runner": "^8.24.1",
+    "@wdio/spec-reporter": "^8.24.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "chai-webdriverio": "^1.0.0"
+  }
+}

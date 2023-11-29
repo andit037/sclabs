@@ -1,9 +1,9 @@
-*** How to run WebdriverIO ***
-a. Install nodejs
-b. Git clone
-c. Go to directory of project
-d. npm install
-e. npm run test
+*** How to run WebdriverIO *** </br>
+a. Install nodejs </br>
+b. Git clone </br>
+c. Go to directory of project </br>
+d. npm install </br>
+e. npm run test </br>
 
-*** How to generate report ***
-a. npm run allure
+*** How to generate report *** </br>
+a. npm run allure </br>
